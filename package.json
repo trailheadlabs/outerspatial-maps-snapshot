@@ -1,0 +1,22 @@
+{
+  "author": "Trailhead Labs",
+  "description": "Takes snapshots of OuterSpatial's maps and pushes them to an S3 bucket.",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "outerspatial-maps-snapshot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trailheadlabs/outerspatial-maps-snapshot"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "aws-sdk": "^2.54.0",
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0",
+    "webshot": "^0.18.0"
+  }
+}
